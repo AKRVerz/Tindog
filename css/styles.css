@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+#title {
+    background-color: #ff4c68;
+    color: white;
+}
+
+#nameBrand{
+    font-family: 'Ubuntu',sans-serif;
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+.container-fluid{
+    padding: 3% 15%;
+}
+
+/* Navbar */
+
+.navbar {
+    padding: 0 0 4.5rem;
+}
+
+.nav-item{
+    padding: 0 18px;
+}
+
+.nav-link{
+    font-size: 1.2rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+}
+
+.down-btn{
+    margin: 5% 3% 5% 0;
+}
+
+.title-img{
+    width: 60%;
+    transform: rotate(25deg);    
+}
+
+/* Features */
+#features{
+    padding: 3% 15%;
+    text-align: center;
+}
+
+.textFont{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 1.5rem;
+}
+
+.area{
+    margin-top: 3%;
+    margin-bottom: 5%;
+}
+
+.fa-circle-check, .fa-bullseye, .fa-heart{
+    color: #ef8172;
+}
+
+.fa-circle-check:hover,
+.fa-bullseye:hover,
+.fa-heart:hover{
+    cursor: pointer;
+    color: #ff4c68;
+}
+
+.textColor{
+    color: #8f8f8f;
+}
